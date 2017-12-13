@@ -1,0 +1,1127 @@
+Package: binutils-cross-canadian-i586-dbg
+Version: 2.24-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 4cc81f826d55d615b46343517c74e89a
+Size: 1242
+Filename: binutils-cross-canadian-i586-dbg_2.24-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428a.patch file://fix-pr16428b.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch
+Description:  GNU binary utilities (cross-canadian for i586 target) - Debugging files
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: binutils-cross-canadian-i586
+HomePage: http://www.gnu.org/software/binutils/
+License: GPLv3
+Priority: optional
+
+Package: binutils-cross-canadian-i586-dev
+Version: 2.24-r0
+Depends: binutils-cross-canadian-i586 (= 2.24-r0)
+Recommends: nativesdk-zlib-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e944b77f31df621450dc69f5712ee74c
+Size: 1280
+Filename: binutils-cross-canadian-i586-dev_2.24-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428a.patch file://fix-pr16428b.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch
+Description:  GNU binary utilities (cross-canadian for i586 target) - Development files
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: binutils-cross-canadian-i586
+HomePage: http://www.gnu.org/software/binutils/
+License: GPLv3
+Priority: optional
+
+Package: binutils-cross-canadian-i586-doc
+Version: 2.24-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 48d6e324ab50afb147cd4a0444c1ae25
+Size: 779124
+Filename: binutils-cross-canadian-i586-doc_2.24-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428a.patch file://fix-pr16428b.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch
+Description:  GNU binary utilities (cross-canadian for i586 target) - Documentation
+ files  The GNU Binutils are a collection of binary tools. The main ones
+ are ld   (GNU Linker), and as (GNU Assembler). This package also includes
+ addition   tools such as addr2line (Converts addresses into filenames and
+ line   numbers), ar (utility for creating, modifying and extracting
+ archives),   nm (list symbols in object files), objcopy (copy and
+ translate object   files), objdump (Display object information), and
+ other tools and related   libraries.  This package contains
+ documentation.
+OE: binutils-cross-canadian-i586
+HomePage: http://www.gnu.org/software/binutils/
+License: GPLv3
+Priority: optional
+
+Package: binutils-cross-canadian-i586
+Version: 2.24-r0
+Provides: binutils-cross-canadian-i586-symlinks
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7cb5772e018a1ccce1b7513d87394a96
+Size: 5732554
+Filename: binutils-cross-canadian-i586_2.24-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428a.patch file://fix-pr16428b.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch
+Description:  GNU binary utilities (cross-canadian for i586 target)  The GNU Binutils
+ are a collection of binary tools. The main ones are ld   (GNU Linker),
+ and as (GNU Assembler). This package also includes addition   tools such
+ as addr2line (Converts addresses into filenames and line   numbers), ar
+ (utility for creating, modifying and extracting archives),   nm (list
+ symbols in object files), objcopy (copy and translate object   files),
+ objdump (Display object information), and other tools and related
+ libraries.
+OE: binutils-cross-canadian-i586
+HomePage: http://www.gnu.org/software/binutils/
+License: GPLv3
+Priority: optional
+
+Package: gcc-cross-canadian-i586-doc
+Version: 4.8.2-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 480c94663bd304cd9a5b265a5bd8b461
+Size: 532420
+Filename: gcc-cross-canadian-i586-doc_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers (cross-canadian for i586 target) -
+ Documentation files  GNU cc and gcc C compilers (cross-canadian for i586
+ target).  This   package contains documentation.
+OE: gcc-cross-canadian-i586
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: gcc-cross-canadian-i586
+Version: 4.8.2-r0
+Depends: nativesdk-libmpc, nativesdk-mpfr
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 38079fb5ee208dc7ba01e460ee6d1f9c
+Size: 16689196
+Filename: gcc-cross-canadian-i586_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers (cross-canadian for i586 target)  GNU cc and
+ gcc C compilers (cross-canadian for i586 target).
+OE: gcc-cross-canadian-i586
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: meta-environment-edison
+Version: 1.0-r8
+Section: base
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 74e27eeb886004d8cad5d51628e939dd
+Size: 4054
+Filename: meta-environment-edison_1.0-r8_i686-nativesdk-mingw32.ipk
+Source: None
+Description:  Package of environment files for SDK  Package of environment files for
+ SDK.
+OE: meta-environment-edison
+License: MIT
+Priority: optional
+
+Package: nativesdk-gcc-runtime-dbg
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 084b016bb3d281b215b3177df53b398c
+Size: 9596
+Filename: nativesdk-gcc-runtime-dbg_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers - Debugging files  GNU cc and gcc C compilers.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-gmp-dbg
+Version: 5.1.1-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ec3515463aabf58ebe4e6d5ed336d328
+Size: 852
+Filename: nativesdk-gmp-dbg_5.1.1-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.1/gmp-5.1.1.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch
+Description:  GNU multiprecision arithmetic library - Debugging files  GMP is a free
+ library for arbitrary precision arithmetic, operating on   signed
+ integers, rational numbers, and floating point numbers  This   package
+ contains ELF symbols and related sources for debugging purposes.
+OE: nativesdk-gmp
+HomePage: http://gmplib.org/
+License: LGPLv3&GPLv3
+Priority: optional
+
+Package: nativesdk-gmp-dev
+Version: 5.1.1-r0
+Depends: nativesdk-gmp (= 5.1.1-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 69a4f8542c7db3b53ecd112c37fcbf8f
+Size: 32306
+Filename: nativesdk-gmp-dev_5.1.1-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.1/gmp-5.1.1.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch
+Description:  GNU multiprecision arithmetic library - Development files  GMP is a free
+ library for arbitrary precision arithmetic, operating on   signed
+ integers, rational numbers, and floating point numbers  This   package
+ contains symbolic links, header files, and related items   necessary for
+ software development.
+OE: nativesdk-gmp
+HomePage: http://gmplib.org/
+License: LGPLv3&GPLv3
+Priority: optional
+
+Package: nativesdk-gmp-doc
+Version: 5.1.1-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0b2fce88332ff0ec80feb8404c5c3116
+Size: 133850
+Filename: nativesdk-gmp-doc_5.1.1-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.1/gmp-5.1.1.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch
+Description:  GNU multiprecision arithmetic library - Documentation files  GMP is a
+ free library for arbitrary precision arithmetic, operating on   signed
+ integers, rational numbers, and floating point numbers  This   package
+ contains documentation.
+OE: nativesdk-gmp
+HomePage: http://gmplib.org/
+License: LGPLv3&GPLv3
+Priority: optional
+
+Package: nativesdk-gmp-staticdev
+Version: 5.1.1-r0
+Depends: nativesdk-gmp-dev (= 5.1.1-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 977148c10cd6fcb652101a8b54117e33
+Size: 268946
+Filename: nativesdk-gmp-staticdev_5.1.1-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.1/gmp-5.1.1.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch
+Description:  GNU multiprecision arithmetic library - Development files (Static
+ Libraries)  GMP is a free library for arbitrary precision arithmetic,
+ operating on   signed integers, rational numbers, and floating point
+ numbers  This   package contains static libraries for software
+ development.
+OE: nativesdk-gmp
+HomePage: http://gmplib.org/
+License: LGPLv3&GPLv3
+Priority: optional
+
+Package: nativesdk-gmp
+Version: 5.1.1-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 20eb687a16f9fc84532a36ebca732bd5
+Size: 794
+Filename: nativesdk-gmp_5.1.1-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.1/gmp-5.1.1.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch
+Description:  GNU multiprecision arithmetic library  GMP is a free library for
+ arbitrary precision arithmetic, operating on   signed integers, rational
+ numbers, and floating point numbers
+OE: nativesdk-gmp
+HomePage: http://gmplib.org/
+License: LGPLv3&GPLv3
+Priority: optional
+
+Package: nativesdk-libgcc-dbg
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 55b03b6671aa1b9e1a95914178df6421
+Size: 1590
+Filename: nativesdk-libgcc-dbg_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers - Debugging files  GNU cc and gcc C compilers.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+OE: nativesdk-libgcc
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgcc-dev
+Version: 4.8.2-r0
+Depends: nativesdk-libgcc (= 4.8.2-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 24a5b7159969b0f4b40fe98043d28274
+Size: 2733444
+Filename: nativesdk-libgcc-dev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers - Development files  GNU cc and gcc C
+ compilers.  This package contains symbolic links, header   files, and
+ related items necessary for software development.
+OE: nativesdk-libgcc
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgcc
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 3ba6e5fd036e2206d426d44d50a08ba9
+Size: 116052
+Filename: nativesdk-libgcc_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-libgcc
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgcov-dev
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8b31b119e9073533a8207e31e095b1f1
+Size: 30462
+Filename: nativesdk-libgcov-dev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-libgcc
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgomp-dev
+Version: 4.8.2-r0
+Recommends: nativesdk-libgcc-dev, nativesdk-pthreads-win32-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 27f0d9c0d0fa17391b0d24e6d4b08d40
+Size: 3774
+Filename: nativesdk-libgomp-dev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgomp-staticdev
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f545d2c18c8b907fa2cd38e6b1f90432
+Size: 30204
+Filename: nativesdk-libgomp-staticdev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libgomp
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2f662f6267258d67cd97895fbee33a17
+Size: 34298
+Filename: nativesdk-libgomp_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libltdl-dev
+Version: 2.4.2-r6.0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 711a7542d867af0a1be9d58f2c20cbc1
+Size: 6248
+Filename: nativesdk-libltdl-dev_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script  This is GNU libtool, a generic library
+ support script. Libtool hides the   complexity of generating special
+ library types (such as shared libraries)   behind a consistent interface.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-libmpc-dbg
+Version: 1.0.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 314181879fbd6e449ec0de8edc0e8afd
+Size: 836
+Filename: nativesdk-libmpc-dbg_1.0.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+Description:  C library for complex number arithmetic with arbitrary precision and
+ correct rounding - Debugging files  Mpc is a C library for the arithmetic
+ of complex numbers with arbitrarily   high precision and correct rounding
+ of the result. It is built upon and   follows the same principles as Mpfr
+ This package contains ELF symbols   and related sources for debugging
+ purposes.
+OE: nativesdk-libmpc
+HomePage: http://www.multiprecision.org/
+License: LGPLv3
+Priority: optional
+
+Package: nativesdk-libmpc-dev
+Version: 1.0.2-r0
+Depends: nativesdk-libmpc (= 1.0.2-r0)
+Recommends: nativesdk-gmp-dev, nativesdk-mpfr-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 682c821fa71080bc904df1ab59119ec6
+Size: 4476
+Filename: nativesdk-libmpc-dev_1.0.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+Description:  C library for complex number arithmetic with arbitrary precision and
+ correct rounding - Development files  Mpc is a C library for the
+ arithmetic of complex numbers with arbitrarily   high precision and
+ correct rounding of the result. It is built upon and   follows the same
+ principles as Mpfr  This package contains symbolic   links, header files,
+ and related items necessary for software   development.
+OE: nativesdk-libmpc
+HomePage: http://www.multiprecision.org/
+License: LGPLv3
+Priority: optional
+
+Package: nativesdk-libmpc-doc
+Version: 1.0.2-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 82aa3266fad62a34a8f2c687c4a775f5
+Size: 24176
+Filename: nativesdk-libmpc-doc_1.0.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+Description:  C library for complex number arithmetic with arbitrary precision and
+ correct rounding - Documentation files  Mpc is a C library for the
+ arithmetic of complex numbers with arbitrarily   high precision and
+ correct rounding of the result. It is built upon and   follows the same
+ principles as Mpfr  This package contains documentation.
+OE: nativesdk-libmpc
+HomePage: http://www.multiprecision.org/
+License: LGPLv3
+Priority: optional
+
+Package: nativesdk-libmpc-staticdev
+Version: 1.0.2-r0
+Depends: nativesdk-libmpc-dev (= 1.0.2-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 538ea728d7968a24b2bb3f9131c00a5b
+Size: 44266
+Filename: nativesdk-libmpc-staticdev_1.0.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+Description:  C library for complex number arithmetic with arbitrary precision and
+ correct rounding - Development files (Static Libraries)  Mpc is a C
+ library for the arithmetic of complex numbers with arbitrarily   high
+ precision and correct rounding of the result. It is built upon and
+ follows the same principles as Mpfr  This package contains static
+ libraries for software development.
+OE: nativesdk-libmpc
+HomePage: http://www.multiprecision.org/
+License: LGPLv3
+Priority: optional
+
+Package: nativesdk-libmpc
+Version: 1.0.2-r0
+Section: libs
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5cb5c8050983b60a8f1a65d6aedc30d1
+Size: 772
+Filename: nativesdk-libmpc_1.0.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+Description:  C library for complex number arithmetic with arbitrary precision and
+ correct rounding  Mpc is a C library for the arithmetic of complex
+ numbers with arbitrarily   high precision and correct rounding of the
+ result. It is built upon and   follows the same principles as Mpfr
+OE: nativesdk-libmpc
+HomePage: http://www.multiprecision.org/
+License: LGPLv3
+Priority: optional
+
+Package: nativesdk-libssp-dev
+Version: 4.8.2-r0
+Recommends: nativesdk-libgcc-dev, nativesdk-pthreads-win32-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cbf783470692c03af907f52302a1a0ed
+Size: 5412
+Filename: nativesdk-libssp-dev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libssp-staticdev
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8f91f0ab3fe6b1a99ee0cab4a01ab50c
+Size: 5086
+Filename: nativesdk-libssp-staticdev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libssp
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5134c5c6480ea6acd209086e473c592f
+Size: 14774
+Filename: nativesdk-libssp_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libstdc++-dev
+Version: 4.8.2-r0
+Recommends: nativesdk-libgcc-dev, nativesdk-pthreads-win32-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f20b771c49d2df1710a4c1db92dbaa91
+Size: 1149546
+Filename: nativesdk-libstdc++-dev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libstdc++-staticdev
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a173734d3607dfae157d7ece7b73a2d8
+Size: 635066
+Filename: nativesdk-libstdc++-staticdev_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libstdc++
+Version: 4.8.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7453fabfcea87ff3e85d572f755e8204
+Size: 383044
+Filename: nativesdk-libstdc++_4.8.2-r0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2 file://0001-gcc-4.3.1-ARCH_FLAGS_FOR_TARGET.patch file://0002-uclibc-conf.patch file://0003-gcc-uclibc-locale-ctype_touplow_t.patch file://0004-uclibc-locale.patch file://0005-uclibc-locale-no__x.patch file://0006-uclibc-locale-wchar_fix.patch file://0007-uclibc-locale-update.patch file://0008-missing-execinfo_h.patch file://0009-c99-snprintf.patch file://0010-c99-complex-ugly-hack.patch file://0011-index_macro.patch file://0012-libmudflap-susv3-legacy.patch file://0013-libstdc-namespace.patch file://0014-sh-pr24836.patch file://0015-arm-Use-TARGET_ENDIAN_OPTION-for-determining-MULTILI.patch file://0016-gcc-poison-system-directories.patch file://0017-gcc-poison-dir-extend.patch file://0018-gcc-4.3.3-SYSROOT_CFLAGS_FOR_TARGET.patch file://0019-64-bit-multilib-hack.patch file://0020-optional-libstdc.patch file://0021-gcc-disable-MASK_RELAX_PIC_CALLS-bit.patch file://0022-COLLECT_GCC_OPTIONS.patch file://0023-Use-the-defaults.h-in-B-instead-of-S-and-t-oe-in-B.patch file://0024-PR-target-32219.patch file://0025-fortran-cross-compile-hack.patch file://0026-libgcc-sjlj-check.patch file://0027-cpp-honor-sysroot.patch file://0028-MIPS64-Default-to-N64-ABI.patch file://0029-Define-GLIBC_DYNAMIC_LINKER-and-UCLIBC_DYNAMIC_LINKE.patch file://0030-gcc-Fix-argument-list-too-long-error.patch file://0031-Disable-sdt.patch file://0032-libtool.patch file://0033-gcc-armv4-pass-fix-v4bx-to-linker-to-support-EABI.patch file://0034-Use-the-multilib-config-files-from-B-instead-of-usin.patch file://0035-wcast-qual-PR-55383.patch file://0037-gcc-4.8-PR56797.patch file://0038-gcc-4.8-build-args.patch file://0039-gcc-4.8-PR57717.patch file://0040-fix-g++-sysroot.patch file://0041-libtool-avoid-libdir.patch file://0042-pr57748.patch file://0043-cpp.patch file://0044-gengtypes.patch file://0045-gcc-4.8-PR57717-PowerPC-E500v2.patch file://0046-libatomic-deptracking.patch file://0047-repomembug.patch file://0048-PR58854_fix_arm_apcs_epilogue.patch file://0049-Enable-SPE-AltiVec-generation-on-powepc-linux-target.patch file://0050-PR-target-58595.patch file://0051-fix-unwind-race.patch
+Description:  GNU cc and gcc C compilers  GNU cc and gcc C compilers.
+OE: nativesdk-gcc-runtime
+HomePage: http://www.gnu.org/software/gcc/
+License: GPL-3.0-with-GCC-exception & GPLv3
+Priority: optional
+
+Package: nativesdk-libtool-dbg
+Version: 2.4.2-r6.0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9ce0e475c8e9d63e503db1e266bd511e
+Size: 984
+Filename: nativesdk-libtool-dbg_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script - Debugging files  This is GNU libtool, a
+ generic library support script. Libtool hides the   complexity of
+ generating special library types (such as shared libraries)   behind a
+ consistent interface.  This package contains ELF symbols and   related
+ sources for debugging purposes.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-libtool-dev
+Version: 2.4.2-r6.0
+Depends: nativesdk-libtool (= 2.4.2-r6.0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 54acc5c85ee22430898329711ee253cb
+Size: 1656
+Filename: nativesdk-libtool-dev_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script - Development files  This is GNU libtool,
+ a generic library support script. Libtool hides the   complexity of
+ generating special library types (such as shared libraries)   behind a
+ consistent interface.  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-libtool-doc
+Version: 2.4.2-r6.0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cf2329b275cdcbc82d50143bf04c2ec0
+Size: 99870
+Filename: nativesdk-libtool-doc_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script - Documentation files  This is GNU
+ libtool, a generic library support script. Libtool hides the   complexity
+ of generating special library types (such as shared libraries)   behind a
+ consistent interface.  This package contains documentation.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-libtool-staticdev
+Version: 2.4.2-r6.0
+Depends: nativesdk-libtool-dev (= 2.4.2-r6.0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 61d9aa2b1b035aa5644f827c7f73f61e
+Size: 18060
+Filename: nativesdk-libtool-staticdev_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script - Development files (Static Libraries)
+ This is GNU libtool, a generic library support script. Libtool hides the
+ complexity of generating special library types (such as shared libraries)
+ behind a consistent interface.  This package contains static libraries
+ for software development.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-libtool
+Version: 2.4.2-r6.0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 70c1fb708daf261ff7fcb86f85bef4fc
+Size: 470550
+Filename: nativesdk-libtool_2.4.2-r6.0_i686-nativesdk-mingw32.ipk
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://avoid_absolute_paths_for_general_utils.patch file://fix-rpath.patch file://respect-fstack-protector.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://prefix.patch file://fixinstall.patch
+Description:  Generic library support script  This is GNU libtool, a generic library
+ support script. Libtool hides the   complexity of generating special
+ library types (such as shared libraries)   behind a consistent interface.
+OE: nativesdk-libtool
+HomePage: http://www.gnu.org/software/libtool/libtool.html
+License: GPLv2 & LGPLv2.1
+Priority: optional
+
+Package: nativesdk-mingw-w64-headers-dbg
+Version: 2.0.8-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8afb9ccf9cf2049203a02c84697492a7
+Size: 760
+Filename: nativesdk-mingw-w64-headers-dbg_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz file://epsilon.patch
+Description:  nativesdk-mingw-w64-headers version 2.0.8-r0 - Debugging files  Header
+ files from the MingGW-w64 project  This package contains ELF   symbols
+ and related sources for debugging purposes.
+OE: nativesdk-mingw-w64-headers
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-headers-dev
+Version: 2.0.8-r0
+Depends: nativesdk-mingw-w64-headers (= 2.0.8-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 999ffaa7d8c5bf0611ac0de138b57724
+Size: 3721214
+Filename: nativesdk-mingw-w64-headers-dev_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz file://epsilon.patch
+Description:  nativesdk-mingw-w64-headers version 2.0.8-r0 - Development files  Header
+ files from the MingGW-w64 project  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: nativesdk-mingw-w64-headers
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-headers
+Version: 2.0.8-r0
+Section: base
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 777ea4e0bea429b8f92234bf8a44c787
+Size: 846
+Filename: nativesdk-mingw-w64-headers_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz file://epsilon.patch
+Description:  nativesdk-mingw-w64-headers version 2.0.8-r0  Header files from the
+ MingGW-w64 project
+OE: nativesdk-mingw-w64-headers
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-runtime-dbg
+Version: 2.0.8-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: bfba9286d85c13dd33449961397f7c25
+Size: 748
+Filename: nativesdk-mingw-w64-runtime-dbg_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz
+Description:  nativesdk-mingw-w64-runtime version 2.0.8-r0 - Debugging files  Runtime
+ libraries from MinGW-w64 project  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: nativesdk-mingw-w64-runtime
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-runtime-dev
+Version: 2.0.8-r0
+Depends: nativesdk-mingw-w64-runtime (= 2.0.8-r0)
+Recommends: nativesdk-mingw-w64-headers-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0372a760eacd4352b96fe6e9056b4d7d
+Size: 6050
+Filename: nativesdk-mingw-w64-runtime-dev_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz
+Description:  nativesdk-mingw-w64-runtime version 2.0.8-r0 - Development files  Runtime
+ libraries from MinGW-w64 project  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: nativesdk-mingw-w64-runtime
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-runtime-staticdev
+Version: 2.0.8-r0
+Depends: nativesdk-mingw-w64-runtime-dev (= 2.0.8-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9fb280f60a80b435b6eaa06a2e4611e1
+Size: 2458996
+Filename: nativesdk-mingw-w64-runtime-staticdev_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz
+Description:  nativesdk-mingw-w64-runtime version 2.0.8-r0 - Development files (Static
+ Libraries)  Runtime libraries from MinGW-w64 project  This package
+ contains static   libraries for software development.
+OE: nativesdk-mingw-w64-runtime
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mingw-w64-runtime
+Version: 2.0.8-r0
+Section: base
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f913683e7895b317a070b10147cf26aa
+Size: 9878
+Filename: nativesdk-mingw-w64-runtime_2.0.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v2.0.8.tar.gz
+Description:  nativesdk-mingw-w64-runtime version 2.0.8-r0  Runtime libraries from
+ MinGW-w64 project
+OE: nativesdk-mingw-w64-runtime
+License: ZPL
+Priority: optional
+
+Package: nativesdk-mpfr-dbg
+Version: 3.1.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e8460aec4f5527e2fa1eda10897acadd
+Size: 780
+Filename: nativesdk-mpfr-dbg_3.1.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch
+Description:  C library for multiple-precision floating-point computations with exact
+ rounding - Debugging files  C library for multiple-precision floating-
+ point computations with exact   rounding.  This package contains ELF
+ symbols and related sources for   debugging purposes.
+OE: nativesdk-mpfr
+HomePage: http://www.mpfr.org/
+License: GPLv3 & LGPLv3
+Priority: optional
+
+Package: nativesdk-mpfr-dev
+Version: 3.1.2-r0
+Depends: nativesdk-mpfr (= 3.1.2-r0)
+Recommends: nativesdk-gmp-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b7f34d92eb6341a45ddb0def29001b1d
+Size: 12790
+Filename: nativesdk-mpfr-dev_3.1.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch
+Description:  C library for multiple-precision floating-point computations with exact
+ rounding - Development files  C library for multiple-precision floating-
+ point computations with exact   rounding.  This package contains symbolic
+ links, header files, and   related items necessary for software
+ development.
+OE: nativesdk-mpfr
+HomePage: http://www.mpfr.org/
+License: GPLv3 & LGPLv3
+Priority: optional
+
+Package: nativesdk-mpfr-doc
+Version: 3.1.2-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ad98a5f6a888cdf4b41bc6e7d8787992
+Size: 90030
+Filename: nativesdk-mpfr-doc_3.1.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch
+Description:  C library for multiple-precision floating-point computations with exact
+ rounding - Documentation files  C library for multiple-precision
+ floating-point computations with exact   rounding.  This package contains
+ documentation.
+OE: nativesdk-mpfr
+HomePage: http://www.mpfr.org/
+License: GPLv3 & LGPLv3
+Priority: optional
+
+Package: nativesdk-mpfr-staticdev
+Version: 3.1.2-r0
+Depends: nativesdk-mpfr-dev (= 3.1.2-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 1637d24b84f54020d96df2e13ddc00d9
+Size: 197044
+Filename: nativesdk-mpfr-staticdev_3.1.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch
+Description:  C library for multiple-precision floating-point computations with exact
+ rounding - Development files (Static Libraries)  C library for multiple-
+ precision floating-point computations with exact   rounding.  This
+ package contains static libraries for software   development.
+OE: nativesdk-mpfr
+HomePage: http://www.mpfr.org/
+License: GPLv3 & LGPLv3
+Priority: optional
+
+Package: nativesdk-mpfr
+Version: 3.1.2-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 51b1efa01bdbe199ac93f11f4af364ef
+Size: 718
+Filename: nativesdk-mpfr_3.1.2-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch
+Description:  C library for multiple-precision floating-point computations with exact
+ rounding  C library for multiple-precision floating-point computations
+ with exact   rounding.
+OE: nativesdk-mpfr
+HomePage: http://www.mpfr.org/
+License: GPLv3 & LGPLv3
+Priority: optional
+
+Package: nativesdk-packagegroup-sdk-host
+Version: 1.0-r12
+Depends: nativesdk-libtool, nativesdk-pkgconfig
+Section: base
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 85f93463d4e883f6d9a0018a9302fc21
+Size: 674
+Filename: nativesdk-packagegroup-sdk-host_1.0-r12_i686-nativesdk-mingw32.ipk
+Source: None
+Description:  Host packages for the standalone SDK or external toolchain  Host packages
+ for the standalone SDK or external toolchain.
+OE: nativesdk-packagegroup-sdk-host
+License: MIT
+Priority: optional
+
+Package: nativesdk-pkgconfig-dbg
+Version: 0.28-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cbf71f4a6ad40da506d4283ceb79a5f4
+Size: 872
+Filename: nativesdk-pkgconfig-dbg_0.28-r0_i686-nativesdk-mingw32.ipk
+Source: http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz file://pkg-config-native.in file://fix-glib-configure-libtool-usage.patch file://obsolete_automake_macros.patch
+Description:  Helper tool used when compiling - Debugging files  pkg-config is a helper
+ tool used when compiling applications and   libraries. It helps
+ determined the correct compiler/link options.  It is   also language-
+ agnostic.  This package contains ELF symbols and related   sources for
+ debugging purposes.
+OE: nativesdk-pkgconfig
+HomePage: http://pkg-config.freedesktop.org/wiki/
+License: GPLv2+
+Priority: optional
+
+Package: nativesdk-pkgconfig-dev
+Version: 0.28-r0
+Depends: nativesdk-pkgconfig (= 0.28-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2d43a3569628991c8dfa0732f75ef9d4
+Size: 904
+Filename: nativesdk-pkgconfig-dev_0.28-r0_i686-nativesdk-mingw32.ipk
+Source: http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz file://pkg-config-native.in file://fix-glib-configure-libtool-usage.patch file://obsolete_automake_macros.patch
+Description:  Helper tool used when compiling - Development files  pkg-config is a
+ helper tool used when compiling applications and   libraries. It helps
+ determined the correct compiler/link options.  It is   also language-
+ agnostic.  This package contains symbolic links, header   files, and
+ related items necessary for software development.
+OE: nativesdk-pkgconfig
+HomePage: http://pkg-config.freedesktop.org/wiki/
+License: GPLv2+
+Priority: optional
+
+Package: nativesdk-pkgconfig-doc
+Version: 0.28-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 72ffd048440c7665fc84a785f8f63f61
+Size: 13156
+Filename: nativesdk-pkgconfig-doc_0.28-r0_i686-nativesdk-mingw32.ipk
+Source: http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz file://pkg-config-native.in file://fix-glib-configure-libtool-usage.patch file://obsolete_automake_macros.patch
+Description:  Helper tool used when compiling - Documentation files  pkg-config is a
+ helper tool used when compiling applications and   libraries. It helps
+ determined the correct compiler/link options.  It is   also language-
+ agnostic.  This package contains documentation.
+OE: nativesdk-pkgconfig
+HomePage: http://pkg-config.freedesktop.org/wiki/
+License: GPLv2+
+Priority: optional
+
+Package: nativesdk-pkgconfig
+Version: 0.28-r0
+Provides: nativesdk-pkgconfig(pkg-config) (= 0.28)
+Section: console/utils
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 17ec2d2c533c262b9573532dd400e549
+Size: 236816
+Filename: nativesdk-pkgconfig_0.28-r0_i686-nativesdk-mingw32.ipk
+Source: http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz file://pkg-config-native.in file://fix-glib-configure-libtool-usage.patch file://obsolete_automake_macros.patch
+Description:  Helper tool used when compiling  pkg-config is a helper tool used when
+ compiling applications and   libraries. It helps determined the correct
+ compiler/link options.  It is   also language-agnostic.
+OE: nativesdk-pkgconfig
+HomePage: http://pkg-config.freedesktop.org/wiki/
+License: GPLv2+
+Priority: optional
+
+Package: nativesdk-pthreads-win32-dbg
+Version: 2.9.1-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 057c9f76ce30b73678f171fbdbf0d962
+Size: 780
+Filename: nativesdk-pthreads-win32-dbg_2.9.1-r0_i686-nativesdk-mingw32.ipk
+Source: http://mirrors.kernel.org/sourceware/pthreads-win32/pthreads-w32-2-9-1-release.tar.gz
+Description:  nativesdk-pthreads-win32 version 2.9.1-r0 - Debugging files  A Win32
+ implementation of the POSIX standard threads API  This package   contains
+ ELF symbols and related sources for debugging purposes.
+OE: nativesdk-pthreads-win32
+HomePage: http://www.sourceware.org/pthreads-win32
+License: LGPLv2.1
+Priority: optional
+
+Package: nativesdk-pthreads-win32-dev
+Version: 2.9.1-r0
+Depends: nativesdk-pthreads-win32 (= 2.9.1-r0)
+Recommends: nativesdk-libgcc-dev
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a411e3b3593fbc26c57ec9ab1b00ac5e
+Size: 13166
+Filename: nativesdk-pthreads-win32-dev_2.9.1-r0_i686-nativesdk-mingw32.ipk
+Source: http://mirrors.kernel.org/sourceware/pthreads-win32/pthreads-w32-2-9-1-release.tar.gz
+Description:  nativesdk-pthreads-win32 version 2.9.1-r0 - Development files  A Win32
+ implementation of the POSIX standard threads API  This package   contains
+ symbolic links, header files, and related items necessary for   software
+ development.
+OE: nativesdk-pthreads-win32
+HomePage: http://www.sourceware.org/pthreads-win32
+License: LGPLv2.1
+Priority: optional
+
+Package: nativesdk-pthreads-win32-staticdev
+Version: 2.9.1-r0
+Depends: nativesdk-pthreads-win32-dev (= 2.9.1-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d9c01fbfd889eab72258eb397e890077
+Size: 6898
+Filename: nativesdk-pthreads-win32-staticdev_2.9.1-r0_i686-nativesdk-mingw32.ipk
+Source: http://mirrors.kernel.org/sourceware/pthreads-win32/pthreads-w32-2-9-1-release.tar.gz
+Description:  nativesdk-pthreads-win32 version 2.9.1-r0 - Development files (Static
+ Libraries)  A Win32 implementation of the POSIX standard threads API
+ This package   contains static libraries for software development.
+OE: nativesdk-pthreads-win32
+HomePage: http://www.sourceware.org/pthreads-win32
+License: LGPLv2.1
+Priority: optional
+
+Package: nativesdk-pthreads-win32
+Version: 2.9.1-r0
+Section: base
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0942e38fcf22633d2b86572231b500f8
+Size: 33174
+Filename: nativesdk-pthreads-win32_2.9.1-r0_i686-nativesdk-mingw32.ipk
+Source: http://mirrors.kernel.org/sourceware/pthreads-win32/pthreads-w32-2-9-1-release.tar.gz
+Description:  nativesdk-pthreads-win32 version 2.9.1-r0  A Win32 implementation of the
+ POSIX standard threads API
+OE: nativesdk-pthreads-win32
+HomePage: http://www.sourceware.org/pthreads-win32
+License: LGPLv2.1
+Priority: optional
+
+Package: nativesdk-zlib-dbg
+Version: 1.2.8-r0
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a77f0fde1fec63932ac5ffe19c4a1888
+Size: 818
+Filename: nativesdk-zlib-dbg_1.2.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://run-ptest
+Description:  Zlib Compression Library - Debugging files  Zlib is a general-purpose,
+ patent-free, lossless data compression library   which is used by many
+ different programs.  This package contains ELF   symbols and related
+ sources for debugging purposes.
+OE: nativesdk-zlib
+HomePage: http://zlib.net/
+License: Zlib
+Priority: optional
+
+Package: nativesdk-zlib-dev
+Version: 1.2.8-r0
+Depends: nativesdk-zlib (= 1.2.8-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c84efec08ec3ef91e5021addef47f81c
+Size: 29458
+Filename: nativesdk-zlib-dev_1.2.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://run-ptest
+Description:  Zlib Compression Library - Development files  Zlib is a general-purpose,
+ patent-free, lossless data compression library   which is used by many
+ different programs.  This package contains symbolic   links, header
+ files, and related items necessary for software   development.
+OE: nativesdk-zlib
+HomePage: http://zlib.net/
+License: Zlib
+Priority: optional
+
+Package: nativesdk-zlib-doc
+Version: 1.2.8-r0
+Section: doc
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b54d492c58a5a07e1a8de299b46d379e
+Size: 3034
+Filename: nativesdk-zlib-doc_1.2.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://run-ptest
+Description:  Zlib Compression Library - Documentation files  Zlib is a general-
+ purpose, patent-free, lossless data compression library   which is used
+ by many different programs.  This package contains   documentation.
+OE: nativesdk-zlib
+HomePage: http://zlib.net/
+License: Zlib
+Priority: optional
+
+Package: nativesdk-zlib-staticdev
+Version: 1.2.8-r0
+Depends: nativesdk-zlib-dev (= 1.2.8-r0)
+Section: devel
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 960bdec6e4354565f17ec9f5fbd1a28a
+Size: 45076
+Filename: nativesdk-zlib-staticdev_1.2.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://run-ptest
+Description:  Zlib Compression Library - Development files (Static Libraries)  Zlib is
+ a general-purpose, patent-free, lossless data compression library   which
+ is used by many different programs.  This package contains static
+ libraries for software development.
+OE: nativesdk-zlib
+HomePage: http://zlib.net/
+License: Zlib
+Priority: optional
+
+Package: nativesdk-zlib
+Version: 1.2.8-r0
+Section: libs
+Architecture: i686-nativesdk-mingw32
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e0f033ff8e56fc53808daa186444f40d
+Size: 54996
+Filename: nativesdk-zlib_1.2.8-r0_i686-nativesdk-mingw32.ipk
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://run-ptest
+Description:  Zlib Compression Library  Zlib is a general-purpose, patent-free,
+ lossless data compression library   which is used by many different
+ programs.
+OE: nativesdk-zlib
+HomePage: http://zlib.net/
+License: Zlib
+Priority: optional
+

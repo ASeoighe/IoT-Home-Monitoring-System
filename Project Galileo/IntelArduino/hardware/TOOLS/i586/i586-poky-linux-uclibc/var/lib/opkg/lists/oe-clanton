@@ -1,0 +1,51 @@
+Package: opkg-config-base-dbg
+Version: 1.0-r1
+Recommends: opkg-config-base (= 1.0-r1)
+Section: devel
+Architecture: clanton
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 18290884f04ffec05f09843206398daf
+Size: 714
+Filename: opkg-config-base-dbg_1.0-r1_clanton.ipk
+Source: None
+Description:  opkg-config-base version 1.0-r1 - Debugging files  Base configuration
+ files for opkg  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Depends: opkg-config-base (= 1.0-r1)
+Section: devel
+Architecture: clanton
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 4258a540d2f9c196b3993ce7404cf1b8
+Size: 728
+Filename: opkg-config-base-dev_1.0-r1_clanton.ipk
+Source: None
+Description:  opkg-config-base version 1.0-r1 - Development files  Base configuration
+ files for opkg  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: opkg-config-base
+Version: 1.0-r1
+Section: base
+Architecture: clanton
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 775ba9e163fe402b82f8e115bfa41e15
+Size: 796
+Filename: opkg-config-base_1.0-r1_clanton.ipk
+Source: None
+Description:  opkg-config-base version 1.0-r1  Base configuration files for opkg
+OE: opkg-config-base
+HomePage: unknown
+License: MIT
+Priority: optional
+
